@@ -1,0 +1,26 @@
+body {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #87CEEB; /* Sky blue background */
+}
+
+#game-container {
+  position: relative;
+  width: 800px;
+  height: 600px;
+  background-color: #228B22; /* Forest green background */
+  border: 2px solid #000;
+}
+
+#dragon {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-image: url('dragon.png'); /* Add your dragon image here */
+  background-size: cover;
+  left: 375px; /* Center horizontally */
+  top: 275px; /* Center vertically */
+}
